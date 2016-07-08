@@ -1,0 +1,13 @@
+.target {
+  margin-top: 100px;
+}
+
+#temp {
+  font-weight: 300;
+  font-size: 50px;
+  text-align: center;
+}
+
+#desc {
+  text-align: center;
+}

@@ -6,7 +6,7 @@ $(document).ready(function() {
 
     $('#go').click(function() {
         city = $('#city').val();
-        country = $('#country').val();
+        //country = $('#country').val();
 
         // making the request
         var url = "http://api.openweathermap.org/data/2.5/weather?q="
@@ -16,7 +16,7 @@ $(document).ready(function() {
         request.open("GET",
                      url +
                      city +
-                     "," + country +
+                     //"," + country +
                      "&appid=" +
                      key, false);
         request.send();
