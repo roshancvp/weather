@@ -22,7 +22,24 @@
 <body>
   <div class="container">
 
-  {{city}}
+    <div class="row">
+      <!-- User Input -->
+      <div class="col-md-6">
+        <div class="card-panel hoverable">
+            <form class="center-align valign" method="POST">
+              <input id="city" type="text" name="city" placeholder="Enter City" value="{{city}}">
+              <input id="go" type="submit" value="Send">
+            </form>
+        </div>
+      </div>
+
+      <div class="col-md-6 weather-out">
+        <!-- Output -->
+        <span id="temp"></span><br>
+        <span id="desc"></span>
+      </div>
+      {{city}}
+    </div>
 
   </div>
 </body>

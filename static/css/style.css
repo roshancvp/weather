@@ -2,7 +2,7 @@ body {
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
-.target {
+.card-panel {
   margin-top: 100px;
 }
 
@@ -14,8 +14,4 @@ body {
 #desc {
   font-weight: 300;
   font-size: 50px;
-}
-
-.weather-out {
-  border: 1px solid black;
 }
