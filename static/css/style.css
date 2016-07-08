@@ -15,3 +15,7 @@ body {
   font-weight: 300;
   font-size: 50px;
 }
+
+.weather-out {
+  border: 1px solid black;
+}
