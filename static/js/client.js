@@ -30,6 +30,8 @@ $(document).ready(function() {
         $('#temp').text(temp + "°C");
         $('#desc').text(json.weather[0].description);
 
+        //$('#desc').text(json.weather[0].icon);
+
     });
 
 });
