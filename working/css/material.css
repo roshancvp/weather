@@ -3,7 +3,20 @@
   max-width: 350px;
 }
 
+.card-panel {
+  max-width: 300px;
+}
+
 .temp {
   font-weight: 100;
   font-size: 6em;
+  margin-left: 20px;
+}
+
+.wi {
+  font-size: 3em;
+}
+
+.desc {
+  margin-left: 10px;
 }
