@@ -1,5 +1,7 @@
 # weather
-⛈ a flask weather service
+⛈ a flask weather service 
+
+Soon to be a Chrome Web App.
 
 ### User installation
 
